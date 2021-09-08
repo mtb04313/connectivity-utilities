@@ -36,6 +36,7 @@
  * Network helper library for FreeRTOS
  */
 
+#include <stdio.h>              // RTTHREAD OS: fixed undefined printf warning
 #include "lwip/dhcp.h"
 #include "lwip/ip4_addr.h"      // NOTE: LwIP specific - ip4_addr
 #include "lwip/netif.h"         // NOTE: LwIP specific - for etharp_cleanup_netif()
